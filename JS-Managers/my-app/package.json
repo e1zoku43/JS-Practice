@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Краткое описание проекта",
+  "author": "fibikrisa@gmail.com",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
