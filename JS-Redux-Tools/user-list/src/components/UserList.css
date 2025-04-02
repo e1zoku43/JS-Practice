@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image: url('/public/forest-background.jpg'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.book {
+    perspective: 1000px;
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    background: rgba(184, 113, 6, 0.8); /* Полупрозрачный фон для читаемости */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.book-cover {
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #333; /* Цвет текста заголовка */
+    text-align: center; /* Центрируем заголовок */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #faf2af; /* Цвет фона для пользователей */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
